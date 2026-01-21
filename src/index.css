@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: white;
+}
