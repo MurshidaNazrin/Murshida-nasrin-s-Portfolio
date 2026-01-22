@@ -19,7 +19,7 @@ function Herosection() {
         <span className="italic text-gray-300">Let’s build something amazing together!</span>
       </p>
       <a
-        href="/public/Murshidanasrin.pdf"
+        href="/Murshidanasrin.pdf"
         download
         className="inline-block mt-8 py-3 px-7 rounded-full bg-gradient-to-r from-purple-600 to-purple-800 hover:scale-105 transition-all duration-300 text-white font-semibold cursor-pointer"
       >
