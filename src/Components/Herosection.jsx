@@ -5,7 +5,7 @@ function Herosection() {
     <section id="home" className="flex justify-center px-4 sm:px-6 lg:px-8 py-16">
       <div className="w-full max-w-4xl text-center">
       
-       <img src="src\assets\linkedinphoto.jpeg" alt="profilephoto" className='h-30 w-30 rounded-full mx-auto mb-2 border-2' /> 
+       <img src="src\assets\linkedinphoto.jpg" alt="profilephoto" className='h-30 w-30 rounded-full mx-auto mb-2 border-2' /> 
      
       {/**/}
       <p className="text-base sm:text-md md:text-md text-gray-200 leading-relaxed font-medium tracking-wide">
