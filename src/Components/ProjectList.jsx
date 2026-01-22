@@ -1,5 +1,9 @@
 import React from 'react'
 import Spotify from '../assets/Spotify.jpg';
+import clothHub from '../assets/clothhub.jpg';
+import shoeplanet from '../assets/shoeplanet.jpg';
+import LMS from '../assets/LMS.jpg';
+import EMS from '../assets/EMS.jpg';
 import Project from './Project';
 
 
@@ -9,36 +13,40 @@ function ProjectList() {
             id :1,
             image : Spotify,
             title: "Spotify Clone",
-            description : "This is a Spotify landing page in which i created using HTML, CSS, and Bootstrap.",
-            demolink: "clonespotifylandingpage.netlify.app",
+            description : "This is a Spotify landing page in which is created using HTML, CSS, and Bootstrap.",
+            demolink: "https://clonespotifylandingpage.netlify.app",
         },
 
         {
             id :2,
-            image : Spotify,
-            title: "Spotify Clone",
-            description : "This is a Spotify landing page in which i created using HTML, CSS, and Bootstrap.",
+            image : clothHub,
+            title: "ClothHub",
+            description : "This is a E-commerce webpage in which is created using HTML, CSS, JavaScript.",
+            demolink: "https://e-commerce-one-lake-63.vercel.app",
         },
 
         {
             id :3,
-            image : Spotify,
-            title: "Spotify Clone",
-            description : "This is a Spotify landing page in which i created using HTML, CSS, and Bootstrap.",
+            image : shoeplanet,
+            title: "Shoe Planet",
+            description : "A clone E-commerce webpage of the showPlanet website.",
+            demolink:"https://shoe-planet-clone-website.vercel.app/"
         },
 
         {
             id :4,
-            image : Spotify,
-            title: "Spotify Clone",
-            description : "This is a Spotify landing page in which i created using HTML, CSS, and Bootstrap.",
+            image : LMS,
+            title: "BibleoHub",
+            description : "A simple Library management system using node.js , HTML, and CSS.",
+            demolink:"https://github.com/MurshidaNazrin/LMS-Library-Management-System",
         },
 
         {
             id :5,
-            image : Spotify,
-            title: "Spotify Clone",
-            description : "This is a Spotify landing page in which i created using HTML, CSS, and Bootstrap.",
+            image : EMS,
+            title: "Employee Management system",
+            description : "This is a Simple Employee Management system using Express.js, node.js, react.js and tailwind css.",
+            demolink:"https://github.com/MurshidaNazrin/EMS-Employee-Management-System",
         },
 
     ]
@@ -49,7 +57,7 @@ function ProjectList() {
          image={project.image}
          title={project.title}
          description = {project.description}
-        //  demolink = {project.demolink}
+         demolink = {project.demolink}
       />
 );
   return (
