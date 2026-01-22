@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import { MdEmail, MdPhone } from 'react-icons/md';
 import { FaLocationDot,FaLinkedin,FaGithub } from "react-icons/fa6";
-import emailJs from 'emailjs-com';
+import emailjs from 'emailjs-com';
 
 function Contact() {
   const form = useRef();
@@ -9,7 +9,7 @@ function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailJs.sendForm('service_p0zpj6a',
+    emailjs.sendForm('service_p0zpj6a',
       'template_z33o5me',
        form.current,
        't846DWznzi11-FyrB'            
